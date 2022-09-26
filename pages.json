@@ -1,32 +1,28 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-		    "path" : "pages/ylgy/ylgy",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		},
-		{
-		    "path" : "pages/tetris/tetris",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		},
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "Alger | 休闲一刻"
 			}
+		},
+		{
+			"path": "pages/ylgy/ylgy",
+			"style": {
+				"navigationBarTitleText": "Alger | 麻了个麻",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tetris/tetris",
+			"style": {
+				"navigationBarTitleText": "Alger | 俄罗斯方块",
+		 	"enablePullDownRefresh": false
+			}
+
 		}
-	    
-       
-    ],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
