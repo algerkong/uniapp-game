@@ -26,7 +26,7 @@
             "path" : "pages/snake/snake",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+				"navigationBarTitleText": "Alger | 贪吃蛇",
                 "enablePullDownRefresh": false
             }
             

@@ -1,5 +1,8 @@
 <template>
   <view class="page">
+    <!-- #ifndef H5 -->
+    <u-navbar title="麻了个麻"></u-navbar>
+    <!-- #endif -->
     <view class="score"> 得分: {{ score }}</view>
     <view class="main">
       <view

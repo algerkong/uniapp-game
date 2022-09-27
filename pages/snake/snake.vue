@@ -1,5 +1,8 @@
 <template>
   <view class="page">
+    <!-- #ifndef H5 -->
+    <u-navbar title="贪吃蛇"></u-navbar>
+    <!-- #endif -->
     <view class="score"> 得分: {{ score }}</view>
     <view class="main">
       <view v-for="rowItem in row">
@@ -170,10 +173,12 @@ const isCrash = () => {
 }
 .main {
   display: flex;
-  margin: 74rpx;
+  margin: 20rpx 74rpx;
   margin-top: 0rpx;
+  /* #ifdef H5 */
   border: 1rpx solid #8b877e;
   background-color: #f5f5f5;
+  /* #endif */
 }
 .snake-item {
   width: 30rpx;
