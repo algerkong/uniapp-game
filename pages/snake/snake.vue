@@ -93,6 +93,8 @@ const init = () => {
   score.value = 0
   success.value = false
   fail.value = false
+  direction.value = "right"
+  clearInterval(timer)
   for (let i = 0; i <= 20; i++) {
     food.arr.push({
       x: Math.floor(Math.random() * 20),
