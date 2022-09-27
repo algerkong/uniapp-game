@@ -107,14 +107,16 @@ const init = () => {
   }, moveTime)
 }
 
+// 判断是否食物
 const isFood = (x, y) => {
   return food.arr.some((item) => item.x === x && item.y === y)
 }
 
+// 判断是不是蛇身
 const isSnake = (x, y) => {
   return snake.arr.some((item) => item.x === x && item.y === y)
 }
-
+// 设置移动方向
 const moveHandle = (value) => {
   direction.value = value
 }
