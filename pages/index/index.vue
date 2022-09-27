@@ -31,6 +31,11 @@ const gameList = ref([
     path: "/pages/ylgy/ylgy",
     logo: "/static/logo/ylgy.jpg",
   },
+  {
+    name: "贪吃蛇",
+    path: "/pages/snake/snake",
+    logo: "/static/logo/snake.png",
+  },
 ])
 
 const toGame = (item) => {
@@ -87,7 +92,8 @@ const toGame = (item) => {
     &-logo {
       width: 140rpx;
       height: 140rpx;
-      border-radius: 20rpx;
+      border-radius: 26rpx;
+      box-shadow: 6rpx 6rpx 14rpx #0000004b;
     }
     &-name {
       margin-top: 10rpx;
